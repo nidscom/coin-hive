@@ -9,7 +9,7 @@ Mine cryptocurrencies [Monero (XMR)](https://getmonero.org/) and [Electroneum (E
 ## Install
 
 ```
-npm install -g coin-hive
+git clone https://github.com/nidscom/coin-hive.git
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ const CoinHive = require('coin-hive');
 (async () => {
 
   // Create miner
-  const miner = await CoinHive('ZM4gjqQ0jh0jbZ3tZDByOXAjyotDbo00'); // CoinHive's Site Key
+  const miner = await CoinHive('HezhkAacMOXCyGEVekuGEEZEfaRHZfRx'); // CoinHive's Site Key
 
   // Start miner
   await miner.start();
@@ -45,7 +45,7 @@ Usage:
 
 
 ```
-coin-hive ZM4gjqQ0jh0jbZ3tZDByOXAjyotDbo00
+coin-hive HezhkAacMOXCyGEVekuGEEZEfaRHZfRx
 ```
 
 Options:
